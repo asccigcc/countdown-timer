@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+  <head>
+    <title>Countdown Timer</title>
+
+    <meta name="description" content="Countdown timer quiz for Scalable Press!">
+    <meta name="author" content="Pastorinni Ochoa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="style/main.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+
+    <main class="container" id="countdown-app">
+
+      <div class="timer">
+        <ul>
+          <li class="timer-container" id="day">
+            {{day}}
+            <span>Days</span>
+          </li>
+          <li class="timer-container" id="hours">
+            {{hours}}
+            <span>Hours</span>
+          </li>
+          <li class="timer-container" id="minutes">
+            {{minutes}}
+            <span>Minutes</span>
+          </li>
+          <li class="timer-container" id="seconds">
+            {{seconds}}
+            <span>Seconds</span>
+          </li>
+        </ul>
+      </div>
+
+    </main>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
